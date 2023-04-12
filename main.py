@@ -13,10 +13,9 @@ def play():
         if result == -1:
             print('Boom')
             print(client.m)
-            break
+            return
 
-    if client.is_cleared():
-        print('You Won')
+    print('You Won')
 
 
 if __name__ == '__main__':
