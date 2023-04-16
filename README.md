@@ -2,7 +2,16 @@
 
 ## Requirements
 
-Python 3.9+
+- Python 3.9+
+- Pytest
+
+## Tests
+
+To run tests run the command:
+
+```
+pytest
+```
 
 ## Playing
 

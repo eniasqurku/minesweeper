@@ -16,9 +16,8 @@ class Matrix:
 
     def get_weight(self, cell: Cell) -> int:
         neighbours = self.get_neighbours(cell.neighbours_coordinates)
-        weight = cell.weight(neighbours)
 
-        return weight
+        return cell.weight(neighbours)
 
     def create_weight_matrix(self) -> list:
         weight_matrix = []
